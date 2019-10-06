@@ -3,29 +3,32 @@
 
   "name": "ua-parser",
   "description": "Minimal UA parser chrome extension",
-  "version": "1.0",
+  "version": "0.1",
 
   "browser_action": {
     "default_icon": "assets/images/logo/logo_48.png",
     "default_popup": "popup.html",
-    "default_title": "ua-parser"
+    "default_title": "UA Parser"
   },
   "icons": {
     "16": "assets/images/logo/logo_16.png",
     "48": "assets/images/logo/logo_48.png",
     "128": "assets/images/logo/logo_128.png"
   },
-  "permissions": ["activeTab"],
+  "permissions": ["activeTab", "contextMenus"],
   "content_scripts": [
     {
       "matches": [ "http://*/*", "https://*/*" ],
-      "js": ["content/content_script.js"],
-      "css": ["content/content.css"],
+      "js": ["content.js"],
+      "css": ["content.css"],
       "run_at": "document_end"
     }
   ],
+  "background": {
+    "page": "background.html",
+    "persistent": true
+  },
   "web_accessible_resources": [
-    "assets/content/content.html",
     "assets/images/logo/logo_128.png"
   ]
 }

@@ -1,0 +1,21 @@
+{
+  "name": "ua-parser",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "build": "rollup --config",
+    "serve": "rollup --config --watch",
+    "lint": "eslint ."
+  },
+  "author": "gokulkathirvel@live.com",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "eslint": "^6.5.1",
+    "rollup": "^1.23.1",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-copy": "^3.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0"
+  }
+}
