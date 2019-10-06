@@ -14,7 +14,7 @@ document.addEventListener('mouseup', (event) => {
   setTimeout(() => {
     let selectedText = (document.getSelection().toString() || '').trim(); 
     
-    browser.extension.sendMessage({
+    browser.runtime.sendMessage({
       type: 'parse_ua',
       text: selectedText
     }, (response) => {
