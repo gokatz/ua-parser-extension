@@ -8,8 +8,6 @@
 * run the build: `yarn start`
 * install the development extension that being served from `dist`
 
-## WIP: Mozilla Add-on
-
 ## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
