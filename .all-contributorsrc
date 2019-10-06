@@ -13,6 +13,16 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "gokatz",
+      "name": "Gokul Kathirvel",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/15158776?v=4",
+      "profile": "https://www.gokatz.me/",
+      "contributions": [
+        "infra",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
