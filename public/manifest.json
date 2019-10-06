@@ -1,21 +1,19 @@
 {
   "manifest_version": 2,
 
-  "name": "ua-parser",
+  "name": "User Agent Parser",
   "description": "Minimal UA parser chrome extension",
-  "version": "0.1",
+  "version": "0.0.1",
 
   "browser_action": {
     "default_icon": "assets/images/logo/logo_48.png",
-    "default_popup": "popup.html",
-    "default_title": "UA Parser"
+    "default_title": "User Agent Parser"
   },
   "icons": {
     "16": "assets/images/logo/logo_16.png",
     "48": "assets/images/logo/logo_48.png",
     "128": "assets/images/logo/logo_128.png"
   },
-  "permissions": ["activeTab", "contextMenus"],
   "content_scripts": [
     {
       "matches": [ "http://*/*", "https://*/*" ],
