@@ -1,12 +1,23 @@
 # UA Parser - Browser Extension
+
 [![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors)
 
-## Contribution
+## Installation
 
-* clone the repo: `git clone`
-* install all dependencies: `yarn` 
-* run the build: `yarn start`
-* install the development extension that being served from `dist`
+- clone the repo: `git clone`
+- install all dependencies: `yarn`
+- run the build: `yarn start`
+- install the development extension that being served from `dist`
+
+## Contributing
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+
+- Fork and Clone the Project
+- Create your Feature Branch (git checkout -b feature/amazing-feature)
+- Commit your Changes (git commit -m 'Add some awesome stuff')
+- Push to the Branch (git push origin feature/amazing-feature)
+- Open a Pull Request
 
 ## Contributors ✨
 
@@ -23,5 +34,3 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 </table>
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
-
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
