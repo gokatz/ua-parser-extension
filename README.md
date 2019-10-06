@@ -1,4 +1,4 @@
-UA Parser - Browser Extension
+# UA Parser - Browser Extension
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 
 ## Contribution
