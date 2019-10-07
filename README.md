@@ -11,13 +11,7 @@
 
 ## Contributing
 
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
-
-- Fork and Clone the Project
-- Create your Feature Branch (git checkout -b feature/amazing-feature)
-- Commit your Changes (git commit -m 'Add some awesome stuff')
-- Push to the Branch (git push origin feature/amazing-feature)
-- Open a Pull Request
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome! Get started [here](https://github.com/gokatz/ua-parser-extension/blob/master/CONTRIBUTING.md)!
 
 ## Contributors ✨
 
