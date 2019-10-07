@@ -2,7 +2,7 @@
   "manifest_version": 2,
 
   "name": "User Agent Parser",
-  "description": "Minimal UA parser chrome extension",
+  "description": "Minimal UA parser",
   "version": "0.0.1",
 
   "browser_action": {
@@ -28,5 +28,10 @@
   },
   "web_accessible_resources": [
     "assets/images/logo/logo_128.png"
-  ]
+  ],
+  "applications": {
+    "gecko": {
+      "id": "gokulkathirvel@live.com"
+    }
+  }
 }
