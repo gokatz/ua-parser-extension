@@ -1,12 +1,41 @@
 # UA Parser - Browser Extension
+
 [![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors)
 
 ## Contribution
 
-* clone the repo: `git clone`
-* install all dependencies: `yarn` 
-* run the build: `yarn start`
-* install the development extension that being served from `dist`
+Once you have the [Prerequisites](./contribution.md) covered:
+
+1. [Clone](https://help.github.com/articles/cloning-a-repository/) this repository from GitHub onto your local computer.
+
+   ```sh
+   $ git clone https://github.com/gokatz/ua-parser-extension.git
+   ```
+
+2. Navigate into the project folder.
+
+   ```sh
+   cd ua-parser-extension
+   ```
+
+3. Install all of its necessary dependencies with Yarn.
+
+   ```sh
+   yarn install
+   ```
+
+4. Start your application.
+
+   ```sh
+   yarn start
+   ```
+
+5. Install the development extension that being served from `dist` folder.
+
+## Install
+
+- [**Chrome** extension](https://addons.mozilla.org/en-US/android/addon/user-agent-parser/)
+- [**Firefox** add-on](https://addons.mozilla.org/en-US/android/addon/user-agent-parser/)
 
 ## Contributors ✨
 
