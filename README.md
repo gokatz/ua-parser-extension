@@ -4,7 +4,7 @@
 
 ## Contribution
 
-Once you have the [Prerequisites](https://github.com/sakthivel9963/ua-parser-extension/blob/installation-guide/contribution.md) covered:
+Once you have the [Prerequisites](./contribution.md) covered:
 
 1. [Clone](https://help.github.com/articles/cloning-a-repository/) this repository from GitHub onto your local computer.
 
