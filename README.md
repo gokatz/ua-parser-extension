@@ -2,14 +2,6 @@
 
 [![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors)
 
-## Prerequisites
-
-1. **NodeJS:** <br>
-   Please install [NodeJS >= 10.15.0](https://nodejs.org/en/download/). If you already have it, you're good to go.
-   <br>
-1. **Yarn:** <br>
-   Visit [Yarn download page](https://yarnpkg.com/en/docs/install). Select your Operating system and follow the instructions. It's as easy as eating a 🍰.
-
 ## Contribution
 
 Once you have the [Prerequisites](#prerequisites) covered:
@@ -20,25 +12,25 @@ Once you have the [Prerequisites](#prerequisites) covered:
    $ git clone https://github.com/gokatz/ua-parser-extension.git
    ```
 
-1. Navigate into the project folder.
+2. Navigate into the project folder.
 
    ```sh
-   cd ua-parse-extension
+   cd ua-parser-extension
    ```
 
-1. Install all of its necessary dependencies with Yarn.
+3. Install all of its necessary dependencies with Yarn.
 
    ```sh
    yarn install
    ```
 
-1. Start your application.
+4. Start your application.
 
    ```sh
    yarn start
    ```
 
-1. Install the development extension that being served from `dist` folder.
+5. Install the development extension that being served from `dist` folder.
 
 ## Install
 
