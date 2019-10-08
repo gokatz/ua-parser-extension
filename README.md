@@ -11,7 +11,7 @@
 
 ## Contributing
 
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome! Get started [here](https://github.com/gokatz/ua-parser-extension/blob/master/CONTRIBUTING.md)!
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome! Checkout the [Contributing Guide]((https://github.com/gokatz/ua-parser-extension/blob/master/CONTRIBUTING.md)) for more details.
 
 ## Contributors ✨
 
