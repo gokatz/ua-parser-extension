@@ -1,9 +1,10 @@
 # UA Parser - Browser Extension
+
 [![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors)
 
 ## Contribution
 
-Once you have the [Prerequisites](#prerequisites) covered:
+Once you have the [Prerequisites](https://github.com/sakthivel9963/ua-parser-extension/blob/installation-guide/contribution.md) covered:
 
 1. [Clone](https://help.github.com/articles/cloning-a-repository/) this repository from GitHub onto your local computer.
 
