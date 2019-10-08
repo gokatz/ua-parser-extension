@@ -5,17 +5,24 @@
   "scripts": {
     "build": "rollup --config",
     "serve": "rollup --config --watch",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "upload-chrome": "webstore upload --source extension.zip --extension-id $EXTENSION_ID --client-id $CLIENT_ID --client-secret $CLIENT_SECRET --refresh-token $REFRESH_TOKEN"
   },
   "author": "gokulkathirvel@live.com",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.6.2",
     "@babel/preset-env": "^7.6.2",
+    "chalk": "^2.4.2",
+    "chrome-webstore-upload": "^0.2.2",
+    "chrome-webstore-upload-cli": "^1.2.0",
     "eslint": "^6.5.1",
+    "request": "^2.88.0",
     "rollup": "^1.23.1",
     "rollup-plugin-babel": "^4.3.3",
     "rollup-plugin-copy": "^3.1.0",
-    "rollup-plugin-node-resolve": "^5.2.0"
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "semver": "^6.3.0",
+    "zip-folder": "^1.0.0"
   }
 }
