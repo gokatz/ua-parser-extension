@@ -2,40 +2,14 @@
 
 [![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors)
 
-## Contribution
-
-Once you have the [Prerequisites](./contribution.md) covered:
-
-1. [Clone](https://help.github.com/articles/cloning-a-repository/) this repository from GitHub onto your local computer.
-
-   ```sh
-   $ git clone https://github.com/gokatz/ua-parser-extension.git
-   ```
-
-2. Navigate into the project folder.
-
-   ```sh
-   cd ua-parser-extension
-   ```
-
-3. Install all of its necessary dependencies with Yarn.
-
-   ```sh
-   yarn install
-   ```
-
-4. Start your application.
-
-   ```sh
-   yarn start
-   ```
-
-5. Install the development extension that being served from `dist` folder.
-
-## Install
+## Installation
 
 - [**Chrome** extension](https://addons.mozilla.org/en-US/android/addon/user-agent-parser/)
 - [**Firefox** add-on](https://addons.mozilla.org/en-US/android/addon/user-agent-parser/)
+
+## Contributing
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome! Checkout the [Contributing Guide]((https://github.com/gokatz/ua-parser-extension/blob/master/CONTRIBUTING.md)) for more details.
 
 ## Contributors ✨
 
@@ -52,5 +26,3 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 </table>
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
-
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
