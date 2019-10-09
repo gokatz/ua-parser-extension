@@ -4,7 +4,7 @@
 
 ## Installation
 
-- [**Chrome** extension](https://addons.mozilla.org/en-US/android/addon/user-agent-parser/)
+- **Chrome** extension [Yet To Be Published]
 - [**Firefox** add-on](https://addons.mozilla.org/en-US/android/addon/user-agent-parser/)
 
 ## Contributing
