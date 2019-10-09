@@ -1,6 +1,6 @@
 # UA Parser - Browser Extension
 
-[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors)
 
 ## Installation
 
@@ -22,6 +22,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/sakthivel9963"><img src="https://avatars3.githubusercontent.com/u/20663777?v=4" width="100px;" alt="sakthivel "/><br /><sub><b>sakthivel </b></sub></a><br /><a href="https://github.com/gokatz/ua-parser-extension/commits?author=sakthivel9963" title="Documentation">📖</a></td>
     <td align="center"><a href="https://www.gokatz.me/"><img src="https://avatars3.githubusercontent.com/u/15158776?v=4" width="100px;" alt="Gokul Kathirvel"/><br /><sub><b>Gokul Kathirvel</b></sub></a><br /><a href="#infra-gokatz" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/gokatz/ua-parser-extension/commits?author=gokatz" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/salilbc"><img src="https://avatars0.githubusercontent.com/u/9673247?v=4" width="100px;" alt="Salil Cuncoliencar"/><br /><sub><b>Salil Cuncoliencar</b></sub></a><br /><a href="https://github.com/gokatz/ua-parser-extension/commits?author=salilbc" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://timrybicki.com"><img src="https://avatars3.githubusercontent.com/u/39889198?v=4" width="100px;" alt="Tim"/><br /><sub><b>Tim</b></sub></a><br /><a href="https://github.com/gokatz/ua-parser-extension/commits?author=trybick" title="Documentation">📖</a></td>
   </tr>
 </table>
 
