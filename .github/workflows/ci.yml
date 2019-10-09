@@ -26,42 +26,21 @@ jobs:
     - name: Test
       run: |
         yarn lint
-
-  Deploy:
-    if: github.ref == 'refs/heads/master'
-
-    runs-on: ubuntu-latest
-
-    strategy:
-      matrix:
-        node-version: [10.x]
-
-    steps:
-    - uses: actions/checkout@v1
-
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v1
-      with:
-        node-version: ${{ matrix.node-version }}
-
-    - name: Install Deps
-      run: |
-        yarn
-
+        
     - name: Build
       run: |
         yarn build
+      if: github.ref == 'refs/heads/master'
 
-#     - name: Deploy
-#       uses: w9jds/firebase-action@master
-#       with:
-#         args: deploy --only hosting:ember-migration-helper
-#       env:
-#         FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
-        
-#     - name: Discord notification
-#       uses: Ilshidur/action-discord@master
-#       env:
-#         DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
-#       with:
-#         args: 'Ember Migration helper has been deployed.'
+    - name: Deploy
+      run: |
+        yarn deploy --if-present
+      if: github.ref == 'refs/heads/master'
+
+    - name: Discord notification
+      uses: Ilshidur/action-discord@master
+      env:
+        DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+      with:
+        args: 'UA Parser Extension has been deployed successfully.'
+      if: github.ref == 'refs/heads/master'

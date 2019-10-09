@@ -4,10 +4,8 @@
 
 ## Installation
 
-- clone the repo: `git clone`
-- install all dependencies: `yarn`
-- run the build: `yarn start`
-- install the development extension that being served from `dist`
+- [**Chrome** extension](https://addons.mozilla.org/en-US/android/addon/user-agent-parser/)
+- [**Firefox** add-on](https://addons.mozilla.org/en-US/android/addon/user-agent-parser/)
 
 ## Contributing
 
